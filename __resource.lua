@@ -2,4 +2,4 @@ client_script "config.lua"
 client_script "client.lua"
 
 
-author 'NICK#5496'
+author 'Appeltje#7949'
