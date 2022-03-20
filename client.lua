@@ -1,6 +1,6 @@
 
 
---- DO NOT EDIT THIS --
+--- VERANDER DIT NIET --
 local holstered  = true
 local blocked	 = false
 local PlayerData = {}
@@ -73,8 +73,8 @@ Citizen.CreateThread(function()
 				DisableControlAction(1, 141, true)
 				DisableControlAction(1, 142, true)
 				DisableControlAction(1, 23, true)
-				DisableControlAction(1, 37, true) -- Disables INPUT_SELECT_WEAPON (TAB)
-				DisablePlayerFiring(ped, true) -- Disable weapon firing
+				DisableControlAction(1, 37, true) -- Zet INPUT_SELECT_WEAPON (TAB) uit
+				DisablePlayerFiring(ped, true) -- Zet wapen vuren tijdens de animatie uit
 			end
 	end
 end)
