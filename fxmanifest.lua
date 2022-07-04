@@ -1,5 +1,5 @@
 client_script "config.lua"
 client_script "client.lua"
 
-description 'sn-wapenpakken - wapenpak animatie fivem'
-author 'FL45H#5053'
+description 'ap-wapenpakken - wapenpak animatie fivem'
+author 'Appeltje#5053'
